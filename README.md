@@ -1,16 +1,38 @@
-# React + Vite
+# Seren: Simple, Privacy-First Note-Taking App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Lightweight, fast, and local — Seren is your minimal note-taking app built with React + Vite. No accounts. No cloud. Just your notes, saved securely in your browser.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Create, edit, and delete notes effortlessly
+* Auto-save and localStorage-powered persistence
+* Privacy-first: your data never leaves your device
+* Clean, distraction-free UI inspired by Apple Notes
+* Quick search to find exactly what you need
+* Share your notes app with friends easily
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React (hooks + functional components)
+* Vite for lightning-fast dev & build
+* LocalStorage for offline-first data persistence
+* React-icons for slick UI icons
+* Custom modals for confirmations and info
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repo
+2. Run `npm install`
+3. Start the dev server with `npm run dev`
+4. Open [localhost:5173](http://localhost:5173) in your browser
+5. Make notes, save, delete, and enjoy privacy-first note-taking
+
+## License
+
+Open source under the MIT License — use it, fork it, contribute if you want.
+
+---
+
+### From the dev’s desk:
+
+> Seren isn’t just another note app. Let’s see if it helps you **score 200/100 on your exams**.
