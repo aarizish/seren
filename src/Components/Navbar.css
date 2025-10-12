@@ -1,0 +1,21 @@
+.top-app-bar{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 5vh;
+}
+
+.top-app-bar ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    padding: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-icon{
+    color: white;
+    height: 23px;
+    width: 23px;
+}

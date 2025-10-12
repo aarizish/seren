@@ -1,0 +1,100 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+    height: 5vh;
+}
+
+.navbar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.icon-style{
+    height: 23px;
+    width: 23px;
+    color: gray;
+    cursor: pointer;
+}
+
+.selected{
+    background-color: rgb(240, 240, 240);
+    padding: 3px;
+    border-radius: 7px;
+}
+
+#query{
+    padding: 5px;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 7px;
+}
+
+.notes-view{
+    display: flex;
+}
+
+.notes-list{
+    width: 23vw;
+    height: 90vh;
+    border-right: 1px solid rgb(240, 240, 240);
+    margin: 13px;
+}
+
+.notes-list #my-notes-text{
+    color: gray;
+}
+
+.list-desc{
+    display: flex;
+    gap: 20px;
+}
+
+.notes-list ul{
+    margin: 23px 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    font-size: 13px;
+}
+
+.notes-list ul li{
+    cursor: pointer;
+}
+
+#list-main-desc{
+    color: gray;
+}
+
+.notes-editor {
+    width: 80vw;
+    flex: 1;
+    padding: 20px;
+}
+
+#note-title{
+    width: 100%;
+    font-weight: 700;
+    font-size: 23px;
+    border: none;
+    height: 5vh;
+    color: rgb(50, 50, 50);
+}
+
+#note-title:focus {
+    outline: none !important;
+}
+
+#note-description{
+    width: 100%;
+    height: 80vh;
+    border: none;
+    color: rgb(50, 50, 50);
+}
+
+#note-description:focus {
+    outline: none !important;
+}

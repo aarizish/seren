@@ -1,0 +1,56 @@
+.modal{
+    position: fixed;
+    width: 20vw;
+    padding: 30px;
+    top: 15vh;
+    left: 40vw;
+    background-color: #f2f2f1;
+    border-radius: 12px;
+    z-index: 10;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    animation: modalPop 0.3s ease-out;
+    transform-origin: center;
+}
+
+.modal-close{
+    background-color: #fe5f56;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.modal hr{
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 13px 0;
+}
+
+.modal-body p{
+    font-size: 11px;
+}
+
+.modal-button{
+    background-color: #1284FF;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+    border-radius: 13px;
+    border: none;
+    margin-top: 10px;
+}
+
+@keyframes modalPop {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
