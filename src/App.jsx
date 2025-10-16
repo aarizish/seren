@@ -110,7 +110,7 @@ function App() {
   };
 
   const shareApp = () => {
-    if (!navigator.share) {
+    if (navigator.share) {
       navigator.share({
         title: 'Seren: Notes, Locally Yours',
         text: 'Try Seren: no sync, no accounts. Just local notes that stay yours.',
